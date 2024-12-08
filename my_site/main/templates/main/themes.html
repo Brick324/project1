@@ -1,0 +1,31 @@
+{% extends 'main/layout.html'%}
+{% load static %}
+
+{% block content %}
+
+    <div style="width: 532px; height: 431px; left: 786px; top: 563px; position: absolute">
+        <img style="width: 532px; height: 285px; left: 0px; top: 0px; position: absolute" src="{% static "main/img//everyday_life.png" %}" />
+        <div style="width: 532px; height: 148px; left: 0px; top: 283px; position: absolute; background: white; border: 5px #CACACA solid"></div>
+        <div style="width: 463px; height: 128px; left: 20px; top: 303px; position: absolute; color: black; font-size: 64px; font-family: Anonymous Pro; font-weight: 400; word-wrap: break-word"><a href="#">Повседневная жизнь (24%)</a></div>
+    </div>
+    <div style="width: 532px; height: 433px; left: 786px; top: 1077px; position: absolute">
+        <img style="width: 532px; height: 285px; left: 0px; top: 0px; position: absolute" src="{% static "main/img/space.png" %}" />
+        <div style="width: 532px; height: 148px; left: 0px; top: 285px; position: absolute; background: white; border: 5px #CACACA solid"></div>
+        <div style="width: 463px; height: 128px; left: 20px; top: 305px; position: absolute; color: black; font-size: 64px; font-family: Anonymous Pro; font-weight: 400; word-wrap: break-word"><a href="#">Космос (100%)</a></div>
+    </div>
+    <div style="width: 532px; height: 433px; left: 122px; top: 1077px; position: absolute">
+        <img style="width: 532px; height: 285px; left: 0px; top: 0px; position: absolute" src="{% static "main/img/medicine.png" %}" />
+        <div style="width: 532px; height: 148px; left: 0px; top: 285px; position: absolute; background: white; border: 5px #CACACA solid"></div>
+        <div style="width: 463px; height: 128px; left: 20px; top: 305px; position: absolute; color: black; font-size: 64px; font-family: Anonymous Pro; font-weight: 400; word-wrap: break-word"><a href="#">Медицина (0%)</a></div>
+    </div>
+    <div style="width: 541px; height: 431px; left: 122px; top: 563px; position: absolute">
+        <img style="width: 532px; height: 285px; left: 0px; top: 0px; position: absolute" src="{% static "main/img/car.png" %}" />
+        <div style="width: 532px; height: 146px; left: 0px; top: 285px; position: absolute; background: white; border: 5px #CACACA solid"></div>
+        <div style="width: 533px; height: 53.92px; left: 8px; top: 285.40px; position: absolute; color: black; font-size: 64px; font-family: Anonymous Pro; font-weight: 400; word-wrap: break-word"><a href="{% url 'vehicles' %}">Транспорт (50%)</a></div>
+    </div>
+    <div style="width: 1371px; height: 283px; left: 75px; top: 280px; position: absolute; color: black; font-size: 84px; font-family: Anonymous Pro; font-weight: 700; word-wrap: break-word">Викторины та тему изобретений</div>
+    <div style="width: 1440px; height: 144px; left: 0px; top: 1672px; position: absolute; background: #40CBBB"></div>
+
+
+{% endblock %}
+

@@ -3,17 +3,14 @@ from django.shortcuts import render
 def index(request):
     return render(request, "main/index.html")
 
-def main_page(request):
-    return render(request, "main/main_page.html")
+def themes(request):
+    return render(request, "main/themes.html")
 
-def page1(request):
-    return render(request, "main/page1.html")
+def vehicles(request):
+    return render(request, "main/vehicles.html")
 
-def page2(request):
-    return render(request, "main/page2.html")
-
-def page3(request):
-    return render(request, "main/page3.html")
+def test(request):
+    return render(request, "main/test.html")
 
 
 

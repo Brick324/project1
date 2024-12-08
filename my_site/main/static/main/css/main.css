@@ -1,0 +1,25 @@
+        .button {
+            background-color: #40CBBB;
+            color: white;
+            text-decoration: none;
+            padding: 20px 60px;
+            border-radius: 30px;
+            font-size: 64px;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: #00ffe1;
+        }
+        button{
+            background-color: #40CBBB;
+            color: white;
+            text-decoration: none;
+            padding: 10px 100px;
+            border-radius: 30px;
+            font-size: 64px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #00ffe1;
+        }

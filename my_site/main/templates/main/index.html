@@ -1,12 +1,38 @@
-<!DOCTYPE html>
-<html lang = "ru">
-<head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
-    <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
-    <title> История изобретений </title>
-</head>
-<body>
-    <p>TEST</p>
-</body>
-</html>
+{% extends 'main/layout.html'%}
+{% load static %}
+
+{% block content %}
+
+    <img style="width: 700px; height: 664px; left: 720px; top: 174px; position: absolute" src="{% static "main/img/main_img.png" %}" />
+    
+    <div style="width: 304px; height: 100px; left: 426px; top: 717px; position: absolute">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Войти</button>
+    </div>
+    <div style="width: 304px; height: 100px; left: 12px; top: 717px; position: absolute">
+        <a href="{% url 'themes' %}" class="button">Начать</a>
+    </div>
+    <div style="width: 1440px; height: 144px; left: 0px; top: 888px; position: absolute; background: #40CBBB"></div>
+    <div style="width: 678px; left: 68px; top: 154px; position: absolute"><span style="color: black; font-size: 64px; font-family: Alegreya; font-weight: 400; word-wrap: break-word">Добро пожаловать<br/><br/></span><span style="color: black; font-size: 48px; font-family: Alegreya; font-weight: 400; word-wrap: break-word">Это сайт с викторинами на тему <br/>изобретений...<br/><br/><br/><br/></span></div>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Вход</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1>Введите логин</h1>
+                <input name = "login"/>
+                <h1>Введите пароль</h1>
+                <input name = "password"/>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary">Войти</button>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+{% endblock %}
