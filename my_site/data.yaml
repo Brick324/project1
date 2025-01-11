@@ -1,0 +1,462 @@
+-   model: main.quiz
+    pk: 1
+    fields:
+      name: Автомобиль
+-   model: main.question
+    pk: 1
+    fields:
+      quiz: 1
+      text: В каком году изобрели автомобиль?
+-   model: main.answer
+    pk: 1
+    fields:
+      question: 1
+      text: 1902
+      is_correct: false
+-   model: main.answer
+    pk: 2
+    fields:
+      question: 1
+      text: 1893
+      is_correct: false
+-   model: main.answer
+    pk: 3
+    fields:
+      question: 1
+      text: 1885
+      is_correct: true
+-   model: main.answer
+    pk: 4
+    fields:
+      question: 1
+      text: 1887
+      is_correct: false
+-   model: main.question
+    pk: 2
+    fields:
+      quiz: 1
+      text: Автомобиль Лада выпускает завод ...
+-   model: main.answer
+    pk: 5
+    fields:
+      question: 2
+      text: ВАЗ
+      is_correct: true
+-   model: main.answer
+    pk: 6
+    fields:
+      question: 2
+      text: ГАЗ
+      is_correct: false
+-   model: main.answer
+    pk: 7
+    fields:
+      question: 2
+      text: ЗИЛ
+      is_correct: false
+-   model: main.answer
+    pk: 8
+    fields:
+      question: 2
+      text: УАЗ
+      is_correct: false
+-   model: main.question
+    pk: 3
+    fields:
+      quiz: 1
+      text: Цепь высокого напряжения отвечает за ...
+-   model: main.answer
+    pk: 9
+    fields:
+      question: 3
+      text: Работу фар
+      is_correct: false
+-   model: main.answer
+    pk: 10
+    fields:
+      question: 3
+      text: Зажигание горючей смеси в двигателе
+      is_correct: true
+-   model: main.answer
+    pk: 11
+    fields:
+      question: 3
+      text: Работу датчиков
+      is_correct: false
+-   model: main.answer
+    pk: 12
+    fields:
+      question: 3
+      text: Работу приборов
+      is_correct: false
+-   model: main.question
+    pk: 4
+    fields:
+      quiz: 1
+      text: Какая часть автомобиля передаёт крутящий момент колесам?
+-   model: main.answer
+    pk: 13
+    fields:
+      question: 4
+      text: Двигатель
+      is_correct: false
+-   model: main.answer
+    pk: 14
+    fields:
+      question: 4
+      text: Трансмиссия
+      is_correct: true
+-   model: main.answer
+    pk: 15
+    fields:
+      question: 4
+      text: Электрооборудование
+      is_correct: false
+-   model: main.answer
+    pk: 16
+    fields:
+      question: 4
+      text: Шасси
+      is_correct: false
+-   model: main.question
+    pk: 5
+    fields:
+      quiz: 1
+      text: Что из этого не является вариантом кузова легкового автомобиля?
+-   model: main.answer
+    pk: 17
+    fields:
+      question: 5
+      text: Грузовик
+      is_correct: true
+-   model: main.answer
+    pk: 18
+    fields:
+      question: 5
+      text: Седан
+      is_correct: false
+-   model: main.answer
+    pk: 19
+    fields:
+      question: 5
+      text: Универсал
+      is_correct: false
+-   model: main.answer
+    pk: 20
+    fields:
+      question: 5
+      text: Лифтбек
+      is_correct: false
+
+
+
+
+
+
+-   model: main.quiz
+    pk: 2
+    fields:
+      name: Самолёт
+-   model: main.question
+    pk: 6
+    fields:
+      quiz: 2
+      text: В каком году изобрели самолёт?
+-   model: main.answer
+    pk: 21
+    fields:
+      question: 6
+      text: 1895
+      is_correct: false
+-   model: main.answer
+    pk: 22
+    fields:
+      question: 6
+      text: 1901
+      is_correct: false
+-   model: main.answer
+    pk: 23
+    fields:
+      question: 6
+      text: 1903
+      is_correct: true
+-   model: main.answer
+    pk: 24
+    fields:
+      question: 6
+      text: 1914
+      is_correct: false
+-   model: main.question
+    pk: 7
+    fields:
+      quiz: 2
+      text: Первый в мире многомоторный бомбардировщик- это ...
+-   model: main.answer
+    pk: 25
+    fields:
+      question: 7
+      text: Як-2
+      is_correct: false
+-   model: main.answer
+    pk: 26
+    fields:
+      question: 7
+      text: Алёша Попович
+      is_correct: false
+-   model: main.answer
+    pk: 27
+    fields:
+      question: 7
+      text: Илья Муромец
+      is_correct: true
+-   model: main.answer
+    pk: 28
+    fields:
+      question: 7
+      text: Су-2
+      is_correct: false
+-   model: main.question
+    pk: 8
+    fields:
+      quiz: 2
+      text: За что отвечает хвост самолёта?
+-   model: main.answer
+    pk: 29
+    fields:
+      question: 8
+      text: За разгон
+      is_correct: false
+-   model: main.answer
+    pk: 30
+    fields:
+      question: 8
+      text: За набор высоты
+      is_correct: false
+-   model: main.answer
+    pk: 31
+    fields:
+      question: 8
+      text: За прочность самолёта
+      is_correct: false
+-   model: main.answer
+    pk: 32
+    fields:
+      question: 8
+      text: За устойчивость и балансировку
+      is_correct: true
+-   model: main.question
+    pk: 9
+    fields:
+      quiz: 2
+      text: Что из этого не является самолётом?
+-   model: main.answer
+    pk: 33
+    fields:
+      question: 9
+      text: Ми-8
+      is_correct: true
+-   model: main.answer
+    pk: 34
+    fields:
+      question: 9
+      text: Ил-18
+      is_correct: false
+-   model: main.answer
+    pk: 35
+    fields:
+      question: 9
+      text: Як-42
+      is_correct: false
+-   model: main.answer
+    pk: 36
+    fields:
+      question: 9
+      text: Ту-134
+      is_correct: false
+-   model: main.question
+    pk: 10
+    fields:
+      quiz: 2
+      text: Корпус самолёта называется ...
+-   model: main.answer
+    pk: 37
+    fields:
+      question: 10
+      text: Обшивка
+      is_correct: false
+-   model: main.answer
+    pk: 38
+    fields:
+      question: 10
+      text: Кабина
+      is_correct: false
+-   model: main.answer
+    pk: 39
+    fields:
+      question: 10
+      text: Оболочка
+      is_correct: false
+-   model: main.answer
+    pk: 40
+    fields:
+      question: 10
+      text: Фюзеляж
+      is_correct: true
+
+
+   
+   
+   
+   
+   
+   
+   
+-   model: main.quiz
+    pk: 3
+    fields:
+      name: Электропоезд
+-   model: main.question
+    pk: 11
+    fields:
+      quiz: 3
+      text: В каком году появилась первая железная дорога в России?
+-   model: main.answer
+    pk: 41
+    fields:
+      question: 11
+      text: 1825
+      is_correct: false
+-   model: main.answer
+    pk: 42
+    fields:
+      question: 11
+      text: 1837
+      is_correct: true
+-   model: main.answer
+    pk: 43
+    fields:
+      question: 11
+      text: 1842
+      is_correct: false
+-   model: main.answer
+    pk: 44
+    fields:
+      question: 11
+      text: 1854
+      is_correct: false
+-   model: main.question
+    pk: 12
+    fields:
+      quiz: 3
+      text: Основной элемент кузова вагона- это ...
+-   model: main.answer
+    pk: 45
+    fields:
+      question: 12
+      text: Пол
+      is_correct: false
+-   model: main.answer
+    pk: 46
+    fields:
+      question: 12
+      text: Рама
+      is_correct: true
+-   model: main.answer
+    pk: 47
+    fields:
+      question: 12
+      text: Крыша
+      is_correct: false
+-   model: main.answer
+    pk: 48
+    fields:
+      question: 12
+      text: Металлические листы
+      is_correct: false
+-   model: main.question
+    pk: 13
+    fields:
+      quiz: 3
+      text: Куда сначала попадает ток от токоприёмника?
+-   model: main.answer
+    pk: 49
+    fields:
+      question: 13
+      text: Аккумулятор
+      is_correct: false
+-   model: main.answer
+    pk: 50
+    fields:
+      question: 13
+      text: Трансформатор
+      is_correct: true
+-   model: main.answer
+    pk: 51
+    fields:
+      question: 13
+      text: Инвертор
+      is_correct: false
+-   model: main.answer
+    pk: 52
+    fields:
+      question: 13
+      text: Электродвигатель
+      is_correct: false
+-   model: main.question
+    pk: 14
+    fields:
+      quiz: 3
+      text: Что находится на крыше электропоезда?
+-   model: main.answer
+    pk: 53
+    fields:
+      question: 14
+      text: Трансформатор
+      is_correct: false
+-   model: main.answer
+    pk: 54
+    fields:
+      question: 14
+      text: Инвертор
+      is_correct: false
+-   model: main.answer
+    pk: 55
+    fields:
+      question: 14
+      text: Токоприёмник
+      is_correct: true
+-   model: main.answer
+    pk: 56
+    fields:
+      question: 14
+      text: Батарея
+      is_correct: false
+-   model: main.question
+    pk: 15
+    fields:
+      quiz: 3
+      text: Первую железную дорогу открыли в ...
+-   model: main.answer
+    pk: 57
+    fields:
+      question: 15
+      text: России
+      is_correct: false
+-   model: main.answer
+    pk: 58
+    fields:
+      question: 15
+      text: США
+      is_correct: false
+-   model: main.answer
+    pk: 59
+    fields:
+      question: 15
+      text: Франции
+      is_correct: false
+-   model: main.answer
+    pk: 60
+    fields:
+      question: 15
+      text: Англии
+      is_correct: true

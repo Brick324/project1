@@ -1,0 +1,10 @@
+{% extends 'main/layout.html'%}
+{% load static %}
+
+{% block content %}
+<a style = "font-size:52px; text-decoration: none; top: 200px; left: 25px; position: absolute" href = "car">Назад</a> 
+<img src="{% static "main/img/engine.png" %}" style="width: 860px; height: 500px; left: 320px; top: 174px; position: relative"/>
+<div style = "position: absolute; top: 800px; left: 15px; font-family: Times New Roman; font-size: 24px">
+    <p>Двигатель нужен для преобразования кинетической энергии топлива в механическую работу. Топливо смешивается с воздухом в определенных пропорциях для образования горючей смеси. Когда в цилиндр поддается искра зажигания с помощью системы зажигания, горючая смесь сгорает и выделяет газы, которые воздействуют на поршень, а поршень вращает коленчатый вал .В свою очередь, коленчатый вал двигателя передает вращение на элементы трансмиссии, которая крутит колеса.</p>
+</div>
+{% endblock %}

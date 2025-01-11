@@ -1,0 +1,16 @@
+{% extends 'main/layout.html'%}
+{% load static %}
+
+{% block content %}
+<a style = "font-size:52px; text-decoration: none; top: 200px; left: 25px; position: absolute" href = "vehicles">Назад</a> 
+<img src="{% static "main/img/lada.png" %}" style="width: 1171px; height: 707px; left: 320px; top: 174px; position: relative"/>
+<a style = "font-size: 32px;text-decoration: none; top: 210px; left: 430px; position: absolute" href = "carbody">Кузов</a> 
+<a style = "font-size: 32px;text-decoration: none; top: 240px; left: 810px; position: absolute" href = "electrical">Электрооборудование</a> 
+<a style = "font-size: 32px;text-decoration: none; top: 350px; left: 1250px; position: absolute" href = "engine">Двигатель</a> 
+<a style = "font-size: 32px;text-decoration: none; top: 782px; left: 500px; position: absolute" href = "transmission">Трансмиссия</a> 
+<div style = "position: absolute; top: 900px; left: 15px; font-family: Times New Roman; font-size: 24px">
+    <p>Автомобили изменили мир, став самым доступным видом транспорта. Их история началась в конце XIX века, когда Карл Бенц создал первый автомобиль с двигателем внутреннего сгорания. Вслед за этим началось массовое производство машин, которое сделало автомобили доступными для широкой публики.</p>
+    <p>В России автомобильная промышленность начала активно развиваться в начале XX века. В 1907 году на заводе Лесснера в Санкт-Петербурге был выпущен первый российский автомобиль. В советский период значительный вклад в развитие автомобильной индустрии внесли такие заводы, как ГАЗ и ЗИЛ. В 1966 году появился Волжский автомобильный завод (ВАЗ), который произвел культовые модели, ставшие частью жизни миллионов россиян.</p>
+    <p>Одной из наиболее популярных моделей ВАЗа в современности стала Лада Гранта. Этот автомобиль, появившийся в 2011 году, стал настоящим хитом благодаря своей доступной цене, надежности и практичности. Гранта выпускается в нескольких модификациях, включая седан, лифтбек и универсал, что позволяет ей оставаться универсальным выбором для самых разных категорий водителей.</p>
+</div>
+{% endblock %}
