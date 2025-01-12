@@ -1,0 +1,10 @@
+{% extends 'main/layout.html'%}
+{% load static %}
+
+{% block content %}
+<a style = "font-size:52px; text-decoration: none; top: 200px; left: 25px; position: absolute" href = "train">Назад</a> 
+<img src="{% static "main/img/electrobox.png" %}" style="width: 640px; height: 363px; left: 320px; top: 154px; position: relative"/>
+<div style = "position: absolute; top: 550px; left: 15px; font-family: Times New Roman; font-size: 24px">
+    <p>К подвагонному оборудованию относятся тяговые электродвигатели, трансформаторы, аккумуляторные батареи и т.д. От токоприёмника ток подаётся в трансформатор, затем проходит через инверторы и направляется в электродвигатели, которые приводят состав в движение</p>
+</div>
+{% endblock %}

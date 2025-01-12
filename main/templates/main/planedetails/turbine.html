@@ -1,0 +1,10 @@
+{% extends 'main/layout.html'%}
+{% load static %}
+
+{% block content %}
+<a style = "font-size:52px; text-decoration: none; top: 200px; left: 25px; position: absolute" href = "plane">Назад</a> 
+<img src="{% static "main/img/turbine.png" %}" style="width: 664px; height: 374px; left: 420px; top: 210px; position: relative"/>
+<div style = "position: absolute; top: 700px; left: 15px; font-family: Times New Roman; font-size: 24px">
+    <p>Силовая установка- важнейшая часть самолёта, так как она обеспечивает его движение. Работает она по следующему принципу: вентилятор подаёт воздух в компрессор, который сжимает воздух и направляет его в камеру сгорания, куда впрыскивается топливо и где образуется горючая смесь, которая воспламеняется. после этого образуются горячие газы, которые вырываются через сопло двигателя и создают тягу, за счёт которой двигается самолёт</p>
+</div>
+{% endblock %}

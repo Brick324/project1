@@ -1,0 +1,9 @@
+{% extends 'main/layout.html'%}
+{% load static %}
+
+{% block content %}
+<a style = "font-size:52px; text-decoration: none; top: 200px; left: 25px; position: absolute" href = "plane">Назад</a> 
+<img src="{% static "main/img/fuselage.png" %}" style="width: 1200px; height: 800px; left: 320px; top: 174px; position: relative"/>
+<div style = "position: absolute; top: 800px; left: 15px; font-family: Times New Roman; font-size: 24px">
+    <p>Фюзеляж является основой самолёта. В нём располагается кабина экипажа, системы управления, пассажирские салоны, багажные отсеки и почти всё электронное оборудование.</p>
+{% endblock %}

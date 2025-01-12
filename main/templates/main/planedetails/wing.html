@@ -1,0 +1,10 @@
+{% extends 'main/layout.html'%}
+{% load static %}
+
+{% block content %}
+<a style = "font-size:52px; text-decoration: none; top: 200px; left: 25px; position: absolute" href = "plane">Назад</a> 
+<img src="{% static "main/img/wing.png" %}" style="width: 626px; height: 418px; left: 420px; top: 210px; position: relative"/>
+<div style = "position: absolute; top: 800px; left: 15px; font-family: Times New Roman; font-size: 24px">
+    <p>Крылья самолёта помогают ему подниматся в воздух. Когда самолет движется в воздухе, благодаря форме крыла создается различное давление воздуха сверху и снизу крыла. Поскольку верхняя поверхность крыла обычно имеет большую кривизну, воздух над ней проходит быстрее, что создает зону низкого давления. Снизу крыла давление выше. Эта разница в давлении генерирует подъемную силу, поддерживающую самолет в воздухе.</p>
+</div>
+{% endblock %}
